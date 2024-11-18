@@ -1,0 +1,59 @@
+{
+  "documentId": "aecvp5y8hgkr6qmzwq4lfkez",
+  "name": "Authenticated",
+  "description": "Default role given to authenticated user.",
+  "type": "authenticated",
+  "locale": null,
+  "permissions": [
+    {
+      "documentId": "a377j5gkd4zr4l593q6231c7",
+      "action": "api::author.author.find",
+      "locale": null
+    },
+    {
+      "documentId": "gadaaddsf2sanfv21fb0gnww",
+      "action": "api::author.author.findOne",
+      "locale": null
+    },
+    {
+      "documentId": "r1khgt6c9cwjv9cte3jgs6tt",
+      "action": "api::book.book.find",
+      "locale": null
+    },
+    {
+      "documentId": "qwd362l99b059hgyey3tc12e",
+      "action": "api::book.book.findOne",
+      "locale": null
+    },
+    {
+      "documentId": "imjgpztw64cv5ategu3qohfs",
+      "action": "api::review.review.find",
+      "locale": null
+    },
+    {
+      "documentId": "f48x5nflwt8dj0jjocwi0pfb",
+      "action": "api::review.review.findOne",
+      "locale": null
+    },
+    {
+      "documentId": "xp4jes7lcd58xe2xx4v6lbqh",
+      "action": "plugin::users-permissions.auth.changePassword",
+      "locale": null
+    },
+    {
+      "documentId": "figxzbscojpic1k8349g0jqs",
+      "action": "plugin::users-permissions.role.find",
+      "locale": null
+    },
+    {
+      "documentId": "fdjd3lmobhx13jwubdw7kksz",
+      "action": "plugin::users-permissions.role.findOne",
+      "locale": null
+    },
+    {
+      "documentId": "sw9f6tvjhiqfank3o0izy8hh",
+      "action": "plugin::users-permissions.user.me",
+      "locale": null
+    }
+  ]
+}

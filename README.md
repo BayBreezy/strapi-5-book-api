@@ -1,61 +1,40 @@
-# 🚀 Getting started with Strapi
+# Strapi 5 - Book API
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+![Scalar Docs](/scalar.jpg)
 
-### `develop`
+This API acts a starting point for your next Strapi 5 API 🎉
+It contains a few key plugins(that I think are needed in all Strapi5 apps)
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+## 🔌 Plugins
 
-```
-npm run develop
-# or
-yarn develop
-```
+The following plugins are included in this API:
 
-### `start`
+- Media Prefix
+- Gen Types
+- Config Sync
+- Init Admin User
+- Logz
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+## 🔑 OpenApi
 
-```
-npm run start
-# or
-yarn start
-```
+There is also a ready to use Postman collection in the [open-api](/open-api/) folder.
 
-### `build`
+You can just import it into your Postman and start testing the API.
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+There is also a script that can be used to convert the Postman collection to an OpenAPI file.
 
-```
-npm run build
-# or
-yarn build
+```bash
+npm run openapi
 ```
 
-## ⚙️ Deployment
+You can see what the generated thing looks like [here](/open-api/openapi-spec.yml)
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+Just copy the generated spec and paste it into [Scalar](https://docs.scalar.com/)
 
-```
-yarn strapi deploy
-```
+## 🚀 Getting Started
 
-## 📚 Learn more
+To get started with this API, first clone it and then install the dependencies.
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+Make a copy of the `.env.example` file and rename it to `.env`.
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+Be sure to update the values in the file.

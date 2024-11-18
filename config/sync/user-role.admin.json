@@ -1,0 +1,174 @@
+{
+  "documentId": "b4y1u6lbb0v9dl7407jmy2fh",
+  "name": "Admin",
+  "description": "The client admin user",
+  "type": "admin",
+  "locale": null,
+  "permissions": [
+    {
+      "documentId": "vhh4p2qgq877w11b0htv2sz1",
+      "action": "api::author.author.create",
+      "locale": null
+    },
+    {
+      "documentId": "zsmzce7kowgwlfjslpxwrdag",
+      "action": "api::author.author.delete",
+      "locale": null
+    },
+    {
+      "documentId": "l1l8si7ef4fxacsomdkg4b88",
+      "action": "api::author.author.find",
+      "locale": null
+    },
+    {
+      "documentId": "fe8ohm8txzfi0aw1pxrekh3a",
+      "action": "api::author.author.findOne",
+      "locale": null
+    },
+    {
+      "documentId": "jv5gameyk4qmc2dyzsje2emz",
+      "action": "api::author.author.update",
+      "locale": null
+    },
+    {
+      "documentId": "vqh8stb1drr190indamgyoty",
+      "action": "api::book.book.create",
+      "locale": null
+    },
+    {
+      "documentId": "zw7atn87tcfizhlpgewrvipu",
+      "action": "api::book.book.delete",
+      "locale": null
+    },
+    {
+      "documentId": "jkonrjbsfrkw1owl6plhf6xq",
+      "action": "api::book.book.find",
+      "locale": null
+    },
+    {
+      "documentId": "hp16pnyyu552mnyekb0r9uwm",
+      "action": "api::book.book.findOne",
+      "locale": null
+    },
+    {
+      "documentId": "su56jjy9gj7l3k7luzyp5zg0",
+      "action": "api::book.book.update",
+      "locale": null
+    },
+    {
+      "documentId": "ftxnumj2cfyhdj6qprdeqose",
+      "action": "api::review.review.create",
+      "locale": null
+    },
+    {
+      "documentId": "g8jnzzg7tjh2w8rku4ud92k0",
+      "action": "api::review.review.delete",
+      "locale": null
+    },
+    {
+      "documentId": "dilaq5ojpf9tmsx7tl40gr9l",
+      "action": "api::review.review.find",
+      "locale": null
+    },
+    {
+      "documentId": "m132hvgy47wan5k0gwkhbe70",
+      "action": "api::review.review.findOne",
+      "locale": null
+    },
+    {
+      "documentId": "nxsa7o896fx8d0eugu8lmlk6",
+      "action": "api::review.review.update",
+      "locale": null
+    },
+    {
+      "documentId": "n3wqj1g4a25bbvf09g1pap0i",
+      "action": "plugin::upload.content-api.destroy",
+      "locale": null
+    },
+    {
+      "documentId": "k6md2zfubivrw3k5x7nnc9jj",
+      "action": "plugin::upload.content-api.find",
+      "locale": null
+    },
+    {
+      "documentId": "llv86f5gr3b5qk6cxu9wfzj7",
+      "action": "plugin::upload.content-api.findOne",
+      "locale": null
+    },
+    {
+      "documentId": "th3rhluftt9pv1hhzeibctkn",
+      "action": "plugin::upload.content-api.upload",
+      "locale": null
+    },
+    {
+      "documentId": "vbyclexpbg746x9x22w9chin",
+      "action": "plugin::users-permissions.auth.changePassword",
+      "locale": null
+    },
+    {
+      "documentId": "jht922n04gfvdjxk543xi0tq",
+      "action": "plugin::users-permissions.auth.emailConfirmation",
+      "locale": null
+    },
+    {
+      "documentId": "isefylkikbgx3d14gyylvs6z",
+      "action": "plugin::users-permissions.auth.forgotPassword",
+      "locale": null
+    },
+    {
+      "documentId": "ae7vjnxb8c8vdtm0nygdn82r",
+      "action": "plugin::users-permissions.auth.resetPassword",
+      "locale": null
+    },
+    {
+      "documentId": "d4emdmjbis943n2yq3ibkw7n",
+      "action": "plugin::users-permissions.auth.sendEmailConfirmation",
+      "locale": null
+    },
+    {
+      "documentId": "wm644edpt6igwhthrr33vylg",
+      "action": "plugin::users-permissions.role.find",
+      "locale": null
+    },
+    {
+      "documentId": "dlb9e274o0cw28nztx0enxaq",
+      "action": "plugin::users-permissions.role.findOne",
+      "locale": null
+    },
+    {
+      "documentId": "zq02l3hdybaspa0le9lmeo95",
+      "action": "plugin::users-permissions.user.count",
+      "locale": null
+    },
+    {
+      "documentId": "jxrq25kba4quzevu65dephr0",
+      "action": "plugin::users-permissions.user.create",
+      "locale": null
+    },
+    {
+      "documentId": "o8ebj4t387xpfopfwxdau037",
+      "action": "plugin::users-permissions.user.destroy",
+      "locale": null
+    },
+    {
+      "documentId": "g9ohlf50rfoihylus19ybyao",
+      "action": "plugin::users-permissions.user.find",
+      "locale": null
+    },
+    {
+      "documentId": "kqqg7gyyj4jyz4bgh0f1s9os",
+      "action": "plugin::users-permissions.user.findOne",
+      "locale": null
+    },
+    {
+      "documentId": "n92x67zd15e5tkrr4ngfmhpn",
+      "action": "plugin::users-permissions.user.me",
+      "locale": null
+    },
+    {
+      "documentId": "qi5pmt4o9mbf9jish6m43kf7",
+      "action": "plugin::users-permissions.user.update",
+      "locale": null
+    }
+  ]
+}
