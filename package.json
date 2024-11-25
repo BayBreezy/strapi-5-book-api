@@ -10,6 +10,7 @@
   },
   "scripts": {
     "build": "strapi build",
+    "clean": "rm -rf .cache build dist node_modules package-lock.json yarn.lock && npm i",
     "deploy": "strapi deploy",
     "dev": "strapi develop",
     "format": "npx --yes prettier --write .",
@@ -18,34 +19,34 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.4.0",
-    "@strapi/plugin-users-permissions": "5.4.0",
-    "@strapi/strapi": "5.4.0",
-    "@strapi/utils": "^5.4.0",
+    "@strapi/plugin-cloud": "5.4.1",
+    "@strapi/plugin-users-permissions": "5.4.1",
+    "@strapi/strapi": "5.4.1",
+    "@strapi/utils": "^5.4.1",
     "better-sqlite3": "11.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.28.0",
     "strapi-plugin-config-sync": "^3.0.4",
-    "strapi-plugin-gen-types": "^0.0.11",
+    "strapi-plugin-gen-types": "^0.0.12",
     "strapi-plugin-init-admin-user": "^0.2.3",
-    "strapi-plugin-logz": "^0.0.7",
+    "strapi-plugin-logz": "^0.0.8",
     "strapi-plugin-media-prefix": "^1.0.4",
     "styled-components": "^6.1.13"
   },
   "devDependencies": {
-    "@types/node": "^22.9.0",
+    "@types/node": "^22.9.3",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "postman-to-openapi": "^3.0.1",
-    "typescript": "^5.6.3"
+    "typescript": "^5.7.2"
   },
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
   },
   "overrides": {
-    "@strapi/strapi": "5.4.0"
+    "@strapi/strapi": "5.4.1"
   },
   "strapi": {
     "uuid": "f4013e80-f3c6-4737-8dec-cfa3d9f81526"
