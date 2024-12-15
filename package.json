@@ -30,7 +30,7 @@
     "strapi-plugin-config-sync": "^3.0.4",
     "strapi-plugin-gen-types": "^0.0.14",
     "strapi-plugin-init-admin-user": "^0.2.3",
-    "strapi-plugin-logz": "^0.0.8",
+    "strapi-plugin-logz": "^0.0.9",
     "strapi-plugin-media-prefix": "^1.0.4",
     "styled-components": "^6.1.13"
   },
